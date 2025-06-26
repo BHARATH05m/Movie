@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Movie Recommendation App (Frontend)
+
+## Components
+- `navbar.jsx` and `navbar.css`: Navigation bar with genre links and search bar.
+- `ComedyMovies.jsx`, `ActionMovies.jsx`, `ThrillerMovies.jsx`, `FamilyMovies.jsx`: Genre components.
+- `Home.jsx` and `Home.css`: Main home page after login, renders navbar and genre content.
+
+## Running the Frontend
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The app will be available at `http://localhost:3000` by default.
